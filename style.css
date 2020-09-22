@@ -1,0 +1,81 @@
+/* folha de estilo da animação */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #15315A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#logo path:nth-child(1) {
+    stroke-dasharray: 671;
+    stroke-dashoffset: 671;
+    animation: line-anim 2s ease forwards;
+
+}
+
+#logo path:nth-child(2) {
+    stroke-dasharray: 651;
+    stroke-dashoffset: 651;
+    animation: line-anim 2s ease forwards 0.3s;
+
+}
+
+#logo path:nth-child(3) {
+    stroke-dasharray: 651;
+    stroke-dashoffset: 651;
+    animation: line-anim 2s ease forwards 0.6s;
+
+}
+
+#logo path:nth-child(4) {
+    stroke-dasharray: 593;
+    stroke-dashoffset: 593;
+    animation: line-anim 2s ease forwards 0.9s;
+    
+}
+
+#logo path:nth-child(5) {
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation: line-anim 2s ease forwards 1.2s;
+    
+}
+
+#logo path:nth-child(6) {
+    stroke-dasharray: 842;
+    stroke-dashoffset: 842;
+    animation: line-anim 2s ease forwards 1.5s;
+
+}
+
+#logo path:nth-child(7) {
+    stroke-dasharray: 679;
+    stroke-dashoffset: 679;
+    animation: line-anim 2s ease forwards 1.8s;
+    
+}
+
+#logo path:nth-child(8) {
+    stroke-dasharray: 324;
+    stroke-dashoffset: 324;
+    animation: line-anim 2s ease forwards 2.1s;
+
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+
+}
